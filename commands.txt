@@ -1,0 +1,30 @@
+mkdir galaxy-far-far-away
+cd galaxy-far-far-away
+touch commands.txt
+mkdir death_star
+cd death_star
+touch princess_leia.txt
+touch princess_leia.txt
+touch storm_trooper.txt
+cd ..
+mkdir tatooine
+cd tatooine
+touch luke.txt
+touch ben_kenobi.txt
+mkdir millenium_falcon
+cd millenium_falcon
+touch han_solo.txt
+touch chewbaca.txt
+cd..
+mv ben_kenobi.txt obi_wan.txt
+cd..
+cp death_star/storm_trooper.txt to tatooine
+cd 'c:/Per-Scholas/2024-RTT-61/module301/galaxy-far-far-away/tatooine/millenium_falcon'
+ mv luke.txt  millenium_falcon
+ mv obi_wan.txt  millenium_falcon
+ mv millenium_falcon ../../galaxy-far-far-away
+ cd..
+ mv millenium_falcon death_star
+mv death_star/princess_leia.txt death_star/millenium_falcon 
+
+
